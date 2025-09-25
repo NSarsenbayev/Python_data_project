@@ -72,7 +72,7 @@ fig.tight_layout(h_pad=0.5)
 plt.show()
 ```
 ### Results
-![Visualization of Top Skills for Data Nerds](3_Project\images\skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Nerds](3_Project/images/skill_demand_all_data_roles.png)
 
 
 ### Insights
@@ -124,7 +124,7 @@ for i in range(df_plot.shape[1]): # gives number of columns
 plt.show()
 ```
 ### Results
-![Trending Top Skills for Data Analysts in the US](3_Project\images\skill_trend_DA.png)
+![Trending Top Skills for Data Analysts in the US](3_Project/images/skill_trend_DA.png)
 *Bar graph visualizing the trending top skills for Data Analysts in the US in 2023.*
 
 ### Insights
@@ -156,7 +156,7 @@ plt.show()
 
 ```
 ### Results
-![Salary Distributions of Data Jobs in the US](3_Project\images\salary_distribution_boxplot.png
+![Salary Distributions of Data Jobs in the US](3_Project/images/salary_distribution_boxplot.png
 )*Box plot visualizing the salary distributions for the top 6 data job titles in the US*
 
 
@@ -207,7 +207,7 @@ sns.barplot(data=df_DA_skills, x="median", y=df_DA_skills.index, ax=ax[1], hue="
 plt.show()
 ```
 ### Results
-![The highest paid and in-demand skills for Data Analysts in the US](3_Project\images\highest_paid_and_in_demand_skills_for_DA_in_US.png)
+![The highest paid and in-demand skills for Data Analysts in the US](3_Project/images/highest_paid_and_in_demand_skills_for_DA_in_US.png)
 *Two bar graphs  visualizing top 10 highest paid and in-demand skills for Data Analysts in the US for year 2023.*
 
 ### Insights
@@ -257,7 +257,7 @@ ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, pos: f"${int(y/1000)}K"
 ax.xaxis.set_major_formatter(PercentFormatter())
 ```
 ### Results
-![Most Optimal Skills for Data Analysts in the US 2025](3_Project\images\most_optimal_skills_for_DA_with_coloring_by_technology.png)
+![Most Optimal Skills for Data Analysts in the US 2025](3_Project/images/most_optimal_skills_for_DA_with_coloring_by_technology.png)
 *A Scatter plot visualizing the most optimal skills (high paying and high demand) for Data Analysts in the US*
 
 ### Insights
